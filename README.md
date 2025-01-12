@@ -1,19 +1,59 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# Lead Tracker Chrome Extension
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+A simple and intuitive Chrome extension for tracking leads. This extension allows you to save the current tab's link, manually input links, and clear all saved leads with a double click. All data is stored in the browser's local storage.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+## Features
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+- **Save Tab:** Quickly save the URL of the current tab with a single click.
 
-Happy Coding!
+- **Manual Input:** Add links manually to keep track of specific URLs.
+
+- **Delete All:** Double-click to delete all saved leads.
+
+- **Local Storage:** All data is stored locally, ensuring privacy and easy access.
+
+## Installation
+
+1\. Clone this repository or download it as a ZIP file.
+
+2\. Extract the ZIP file if necessary.
+
+3\. Open Google Chrome and navigate to `chrome://extensions/`.
+
+4\. Enable "Developer mode" by toggling the switch in the top-right corner.
+
+5\. Click on "Load unpacked" and select the directory where you extracted the extension.
+
+## Usage
+
+1\. **Save Tab:** Click the extension icon in the Chrome toolbar and press the "Save Tab" button.
+
+2\. **Manual Input:** Enter a URL in the input field and press "Save" to add it to your leads.
+
+3\. **Delete All:** Double-click on the "Clear All" button to delete all saved leads from local storage.
+
+## Screenshots
+
+![Screenshot 1](Save-Tab.png)
+
+![Screenshot 2](Save-Input.png)
+
+## Contributing
+
+1\. Fork the repository.
+
+2\. Create a new branch: `git checkout -b feature-branch-name`.
+
+3\. Make your changes and commit them: `git commit -m 'Add some feature'`.
+
+4\. Push to the branch: `git push origin feature-branch-name`.
+
+5\. Submit a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Icons used in the extension are from [Source] (link to icon source).
